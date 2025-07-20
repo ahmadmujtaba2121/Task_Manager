@@ -1,12 +1,43 @@
-# React + Vite
+# 📝 Task Manager with Pomodoro Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, clean task manager with Pomodoro focus timer built using **React**, **Context API**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This app allows you to:
+- Add, edit, delete, and mark tasks as done ✅
+- Focus using a built-in Pomodoro timer ⏱
+- Store tasks in `localStorage` so they persist on refresh
+- Get visual feedback with clean **toast notifications**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚡ This was a small project to practice real-world React structure with reusable components and shared state using Context API.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- ✅ Add / Edit / Delete Tasks
+- ✅ Mark tasks as Done / Undone
+- ⏱ Built-in Pomodoro Timer (Focus & Break mode)
+- 💾 Auto-save to LocalStorage
+- 🎨 Styled with Tailwind CSS
+- 🔔 Toast notifications with `react-hot-toast`
+- 📦 Component-based structure
+- 📁 Clean folder layout
+
+---
+
+## 🚀 Tech Stack
+
+| Tech               | Use                                |
+|--------------------|-------------------------------------|
+| React              | Frontend Framework                  |
+| Context API        | Global state management             |
+| Tailwind CSS       | Styling + Layout                    |
+| react-hot-toast    | Toaster notifications               |
+| Vite               | Build tool (Fast Dev Server)        |
+| LocalStorage       | Data persistence                    |
+
+---
+
+🙋‍♂️ Notes
+This was a learning project — built piece-by-piece while learning Context API, state sharing, and Tailwind component structure.
+It's not perfect, but it's clean, functional, and easy to improve later.
