@@ -36,6 +36,9 @@ This app allows you to:
 | Vite               | Build tool (Fast Dev Server)        |
 | LocalStorage       | Data persistence                    |
 
+
+🌍 Live Demo
+https://task-manager-ahmad.vercel.app/
 ---
 
 🙋‍♂️ Notes
